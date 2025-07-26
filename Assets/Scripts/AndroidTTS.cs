@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.Android; // Для запроса разрешений
+using UnityEngine.Android;
 
 public class AndroidTTS : MonoBehaviour
 {
