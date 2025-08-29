@@ -68,7 +68,10 @@ private string serverUrl = "http://localhost:8000/process";
 5. **Прослушайте ответ** - текст автоматически озвучится
 6. **Управляйте скоростью** воспроизведения кнопками скорости
 
-![Interface](https://github.com/JulYakJul/FastInfo/blob/main/GitImages/interface.jpg)
+<div align="center">
+  <img src="https://github.com/JulYakJul/FastInfo/blob/main/GitImages/interface.jpg?raw=true" width="250"/>
+</div>
+
 
 ## Структура проекта
 
