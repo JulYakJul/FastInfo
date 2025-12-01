@@ -18,6 +18,19 @@
 | **TTS (Text-to-Speech)** | **Overtone TTS Engine**<br>**Поддерживаемые голоса**:<br>🇺🇸 Английский: Amy <br>🇷🇺 Русский: Denis, Dmitri, Irina, Ruslan |
 | **Дополнительные технологии** | **UnityWebRequest**: HTTP-клиент для связи с сервером<br>**JSON**<br>**Git** |
 
+## Использование
+
+1. **Запустите Unity проект** и откройте сцену `SampleScene`
+2. **Загрузите текстовый файл** нажав кнопку "Загрузить файл"
+3. **Введите промпт** в текстовое поле (например: Расскажи про "тема из такста")
+4. **Нажмите на кнопку On** для отправки запроса
+5. **Прослушайте ответ** - текст автоматически озвучится
+6. **Управляйте скоростью** воспроизведения кнопками скорости
+
+<div align="center">
+  <img src="https://github.com/JulYakJul/FastInfo/blob/main/GitImages/interface.jpg?raw=true" width="250"/>
+</div>
+
 ## Требования
 
 ### Unity Editor
@@ -58,20 +71,6 @@ python Assets/Scripts/AIServerAPI/ai_server.py
 ```csharp
 private string serverUrl = "http://localhost:8000/process";
 ```
-
-## Использование
-
-1. **Запустите Unity проект** и откройте сцену `SampleScene`
-2. **Загрузите текстовый файл** нажав кнопку "Загрузить файл"
-3. **Введите промпт** в текстовое поле (например: Расскажи про "тема из такста")
-4. **Нажмите на кнопку On** для отправки запроса
-5. **Прослушайте ответ** - текст автоматически озвучится
-6. **Управляйте скоростью** воспроизведения кнопками скорости
-
-<div align="center">
-  <img src="https://github.com/JulYakJul/FastInfo/blob/main/GitImages/interface.jpg?raw=true" width="250"/>
-</div>
-
 
 ## Структура проекта
 
